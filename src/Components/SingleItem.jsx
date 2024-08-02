@@ -15,7 +15,7 @@ function SingleItem({ price, type, id, deleteItem, editItem }) {
     editItem(id);
   }
 
-  const urlImage = `/src/image/${type}.png`
+  const urlImage = `/Subscriptions-Tracker/public/image/${type}.png`;
   return (
     <div className='single-item'>
       <img src={urlImage} alt={`${type} logo`} />
